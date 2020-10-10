@@ -23,4 +23,4 @@ jobs:
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: Valgrind check
       run: |
-        valgrind chmod 777 ./all.out
+        valgrind chmod 777 ./cpp_Mproject/all.out
